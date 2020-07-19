@@ -2,7 +2,7 @@ import tkinter as tk
 import tkinter.font as font
 
 
-def rbg():
+def rgb():
 	h = {
 	'0':0,
 	'1':1,
@@ -54,7 +54,7 @@ lbl.grid(row=0,sticky='nsew')
 main_frame = tk.Frame(window)
 enter = tk.Entry(main_frame)
 enter.grid(row=0,column=0,sticky='ns',ipadx=5,ipady=5,padx=5,pady=5)
-btn = tk.Button(main_frame,text='Submit',command=rbg)
+btn = tk.Button(main_frame,text='Submit',command=rgb)
 btn.grid(row=0,sticky='ns',column=1,padx=5,pady=5)
 main_frame.grid(row=1,column=0)
 
